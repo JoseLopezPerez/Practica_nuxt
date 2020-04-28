@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-      <h1> detalle del articulo id: {{$route.params.id}}</h1>
+  <div>
+      la superficien de la provincia de {{$route.params.provincia}} es de 245km2
   </div>
 </template>
 

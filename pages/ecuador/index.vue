@@ -1,5 +1,8 @@
 <template>
-  
+  <div>
+      BIENVENIDO A ECUADOR
+      escoga una provincia
+  </div>
 </template>
 
 <script>

@@ -11,7 +11,7 @@
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
-          :to="item.to"
+          :to="item.route"
           router
           exact
         >
@@ -99,17 +99,17 @@ export default {
         {
           icon: 'mdi-apps',
           title: 'Welcome',
-          to: '/'
+          route: '/'
         },
         {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
-          to: '/inspire'
+          route: '/inspire'
         },
         {
           icon: 'mdi-chart-bubble',
           title: 'PRODUCTOS',
-          to: '/productos'
+          route: '/productos'
         }
       ],
       miniVariant: false,

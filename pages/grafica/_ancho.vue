@@ -74,6 +74,7 @@
       </v-col>
 
       <v-col cols="12">
+          <h1>el ancho id: {{$route.params.id}}</h1>
         <v-slider
           v-model="lineWidth"
           label="Line width"

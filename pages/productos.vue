@@ -1,38 +1,40 @@
 <template>
   <div>
-      PRODUCTOS
-      <v-btn to="/productos/contenido">
-          contenido
-      </v-btn>
-       <v-btn to="/productos/10">
-          producto 10
-      </v-btn>
-      <v-card class="mx-auto"
-            max-width="322"
-            max-height="322"
-            color="primary"> 
-    <h1 class="black--text font-italic">productos pruebas</h1>
-    <h2 class="green--text">Titulo: Matriz Hertz</h2>
-    <label>Descripcion:</label>
-    <v-col>
-        <v-img height="200" width="310" 
-        src="https://cdn.vuetifyjs.com/images/cards/store.jpg">
+    PRODUCTOS
+    <v-btn to="/productos/contenido">
+      contenido
+    </v-btn>
 
-        </v-img>
-    </v-col>
+    <v-card class="mx-auto" max-width="300" tile>
+      <v-list dense>
+        <v-subheader>REPORTS</v-subheader>
+        <v-list-item-group color="primary">
+          <v-list-item v-for="(producto, index) in productos" :key="index">
+            <v-list-item-icon>
+              <v-icon v-text="`mdi-${producto.icon}`"></v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title  v-text="`model ${producto.ID}`"></v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-card>
 
-
-      </v-card>
-      <nuxt-child></nuxt-child>
+    <nuxt-child></nuxt-child>
   </div>
 </template>
 
 <script>
 export default {
-
+  data: () => ({
+    productos: [
+      { ID: ' 1', icon: 'clock' },
+      { ID: ' 10', icon: 'account' },
+      { ID: ' 100', icon: 'flag' }
+    ]
+  })
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
