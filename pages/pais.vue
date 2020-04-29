@@ -12,7 +12,7 @@
           <v-list-item-group>
             <v-list-item v-for="(provincia, index) in provincia" :key="index">
               <v-list-item-icon> 
-                <v-icon v-text="`Provincias ${provincia.nombre}`">
+                <v-icon v-text="`${provincia.nombre}`">
 
 
                 </v-icon>
@@ -31,11 +31,13 @@
 
 <script>
 export default {
-  data:()=>{
+  data:()=>({
     provincia:[
-      {nombre:'Guayaquil',nombre:'Cuenca'}
+      {nombre:'1.Guayaquil'},
+      {nombre:'2.Cuenca'},
+      {nombre:'3.Quito'}
     ]
-  }
+  })
 }
 </script>
 
