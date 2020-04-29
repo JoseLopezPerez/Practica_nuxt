@@ -1,5 +1,5 @@
 <template>
-  <v-app light>
+  <v-app dark>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -57,7 +57,7 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-content style="background-color: pink;">
+    <v-content style="background-color: dark;">
       <v-container>
         <nuxt />
       </v-container>
