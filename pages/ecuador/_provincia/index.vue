@@ -1,6 +1,6 @@
 <template>
   <div>
-      BIENVENIDO A LA CAPITAL (canton) {{$route.params.capital}} de la provincia de {{$route.params.provincia}}
+      BIENVENIDO A LA PROVINCIA  {{$route.params.provincia}} 
 
       <v-btn to="/pais">
        regresar a la ruta Principal llamada Pais

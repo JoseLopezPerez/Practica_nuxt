@@ -113,8 +113,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title:'PAIS',
-          route:'/pais'
+          title:'ECUADOR',
+          route:'/ecuador'
         }
       ],
       miniVariant: false,
