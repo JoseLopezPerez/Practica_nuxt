@@ -110,6 +110,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'PRODUCTOS',
           route: '/productos'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title:'PAIS',
+          route:'/pais'
         }
       ],
       miniVariant: false,
