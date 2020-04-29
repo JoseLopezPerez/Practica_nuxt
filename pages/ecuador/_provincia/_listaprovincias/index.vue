@@ -1,6 +1,6 @@
 <template>
   <div>
-      {{$route.params._provincia}}
+      hahaha este es el index de listaprovincia
   </div>
 </template>
 

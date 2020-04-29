@@ -1,6 +1,6 @@
 <template>
   <div>
-    lista {{$route.params.capital}}
+      hahah{{$route.params._provincia}}
   </div>
 </template>
 
