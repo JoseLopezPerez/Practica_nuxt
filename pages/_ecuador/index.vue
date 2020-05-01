@@ -5,6 +5,9 @@
     
     <v-subheader>
           * Bienvenido a Ecuador: {{$route.params.id}}
+          <v-subheader>
+            Desea conocer las provincias
+          </v-subheader>
       </v-subheader>
 
   </div>
