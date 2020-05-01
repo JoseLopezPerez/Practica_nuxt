@@ -1,20 +1,14 @@
 <template>
-  <div >
-    <v-subheader >
-    <ul class="blue lighten-2  " >
-      <h1 class="text-center"
+  <div>
+    <ul>
+      <h1
         v-for="(nombreprincipal, index) in nombreprincipal"
         :key="index"
         v-text="
           `${nombreprincipal.nombrecapitales} - ${nombreprincipal.nombreprincipalprovincia}`"></h1>
-          
-            
-          
-      <li v-for="(provinciasycapitales, i) in provinciasycapitales" :key="i"  > {{provinciasycapitales.capitales}}  - 
+      <li v-for="(provinciasycapitales, index) in provinciasycapitales" :key="index" > {{provinciasycapitales.capitales}}  - 
         {{provinciasycapitales.provinciass}} </li>
-        
     </ul>
-    </v-subheader>
   </div>
 </template>
 

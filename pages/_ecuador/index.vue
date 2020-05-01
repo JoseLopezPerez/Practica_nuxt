@@ -1,15 +1,19 @@
 
 <template>
-  <div class="container">
-
-    
+  <div class="container" >
+    <v-row align="center" justify="center">
+<v-img src="https://especiales.elcomercio.com/documentos/2018/08/ecuador_independence.gif" max-height="200" max-width="200"></v-img>
+    </v-row>
+    <v-row align="center" justify="center">
     <v-subheader>
-          * Bienvenido a Ecuador: {{$route.params.id}}
-          <v-subheader>
-            Desea conocer las provincias
+          * Bienvenido a Ecuador:
+          <v-subheader >
+            Desea conocer las provincias 
+            
           </v-subheader>
+          <v-btn to="/_ecuador/_provincia" > Conócenos</v-btn>
       </v-subheader>
-
+</v-row>
   </div>
 </template>
 
