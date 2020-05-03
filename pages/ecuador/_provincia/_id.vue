@@ -21,6 +21,8 @@ export default {
         nombreprincipalprovincia: 'Provincias',}
         ],
         // CORREGIR EL OBJETO
+
+        
         provinciasycapitales:[
           {capitales:'Guayaquil' ,provinciass:'Guayas'},
           {capitales:'Quito ' ,provinciass:'Quito'},
