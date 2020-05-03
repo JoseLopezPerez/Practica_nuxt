@@ -20,7 +20,7 @@ export default {
         nombrecapitales: 'Capitales',
         nombreprincipalprovincia: 'Provincias',}
         ],
-        // CORREGIR EL OBJETO
+        // CORREGIR EL OBJETO, anidar los elementos
         provinciasycapitales:[
           {capitales:'Guayaquil' ,provinciass:'Guayas'},
           {capitales:'Quito ' ,provinciass:'Quito'},
