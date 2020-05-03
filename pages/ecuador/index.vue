@@ -11,7 +11,7 @@
             Desea conocer las provincias 
             
           </v-subheader>
-          <v-btn to="/_ecuador/_provincia" > Conócenos</v-btn>
+          <v-btn to="/ecuador/provincia" > Conócenos</v-btn>
       </v-subheader>
 </v-row>
   </div>
