@@ -25,6 +25,7 @@ export default {
     nombreprincipal: [
       {
         nombrecapitales: 'Capitales',
+<<<<<<< HEAD
         nombreprincipalprovincia: 'Provincias'
       }
     ],
@@ -39,6 +40,17 @@ export default {
       { provinciass: 'Quito' },
       { provinciass: 'Azuay' }
     ]
+=======
+        nombreprincipalprovincia: 'Provincias',}
+        ],
+        // CORREGIR EL OBJETO ANINADO EN PROVINCIAS        
+        provinciasycapitales:[
+          {capitales:'Guayaquil' ,provinciass:'Guayas'},
+          {capitales:'Quito ' ,provinciass:'Quito'},
+          {capitales:'Azuay ' ,provinciass:'Azuay'}
+        ]
+
+>>>>>>> 60fb8d4a0ea165848c09d384011b2de78775feae
   })
 }
 </script>
