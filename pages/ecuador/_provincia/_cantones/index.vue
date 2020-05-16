@@ -16,6 +16,7 @@
         {{ provinciasycapitales.provinciass }}
       </li>
     </ul>
+    <h1>este es el id</h1>
   </div>
 </template>
 
